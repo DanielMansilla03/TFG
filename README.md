@@ -26,7 +26,7 @@ El documento completo del TFG se encuentra en la carpeta [`TFG/`](TFG/).
 ├── Future/                       # Resultados y mejoras futuras (anexo del TFG)
 │   ├── MEJORAS.md                # Historial experimental: ablaciones y trabajo futuro
 │   ├── src/                      # Variantes del EDA e instrumentación
-│   ├── test/                     # Orquestación, reproducción y anális
+│   ├── test/                     # Orquestación, reproducción y análisis
 │   └── results/                  # Volcados de diagnóstico y figuras
 ├── TFG/                          # Memoria del TFG (PDF)
 ├── requirements.txt
@@ -64,7 +64,7 @@ PYTHONPATH=src python test/benchmark_final.py
 
 > El flag `-X utf8` evita errores de codificación `cp1252` en Windows.
 
-La primera ejecución construye las PDBs mediante BFS y las cachea en un
+La primera ejecución construye las PDBs mediante BFS y las cachea en un fichero
 `*.pkl` (ignorado por Git); las siguientes ejecuciones las cargan directamente.
 
 ## Salidas del benchmark
@@ -75,9 +75,9 @@ La primera ejecución construye las PDBs mediante BFS y las cachea en un
 
 ## Resultados y mejoras futuras
 
-La carpeta [`Future/`](Future/) recoge el material de la sección de **r
+La carpeta [`Future/`](Future/) recoge el material de la sección de **resultados
 futuros y mejoras futuras** del TFG: el historial experimental completo del
 solver (línea base → ablaciones → `markov_anchor`, incluidos los resultados
-negativos como evidencia) y las líneas de trabajo futuro para profundid
+negativos como evidencia) y las líneas de trabajo futuro para profundidades
 d ≥ 25 sin romper la pureza EDA. El documento principal es
 [`Future/MEJORAS.md`](Future/MEJORAS.md).
