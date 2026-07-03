@@ -23,6 +23,11 @@ El documento completo del TFG se encuentra en la carpeta [`TFG/`](TFG/).
 │   ├── verify_solutions.py       # Verificación de soluciones
 │   └── scrambles.json            # Banco congelado de scrambles
 ├── results/                      # Resultados y figuras del benchmark
+├── Future/                       # Resultados y mejoras futuras (anexo del TFG)
+│   ├── MEJORAS.md                # Historial experimental: ablaciones y trabajo futuro
+│   ├── src/                      # Variantes del EDA e instrumentación
+│   ├── test/                     # Orquestación, reproducción y anális
+│   └── results/                  # Volcados de diagnóstico y figuras
 ├── TFG/                          # Memoria del TFG (PDF)
 ├── requirements.txt
 └── README.md
@@ -59,7 +64,7 @@ PYTHONPATH=src python test/benchmark_final.py
 
 > El flag `-X utf8` evita errores de codificación `cp1252` en Windows.
 
-La primera ejecución construye las PDBs mediante BFS y las cachea en un fichero
+La primera ejecución construye las PDBs mediante BFS y las cachea en un
 `*.pkl` (ignorado por Git); las siguientes ejecuciones las cargan directamente.
 
 ## Salidas del benchmark
@@ -67,3 +72,12 @@ La primera ejecución construye las PDBs mediante BFS y las cachea en un fichero
 - `results_<VARIANT>.json` — resultados crudos por scramble y agregados por profundidad (Wilson CI)
 - `results_<VARIANT>.csv` — una fila por scramble
 - `curva_success.(pdf/svg/png)` — tasa de resolución frente a profundidad
+
+## Resultados y mejoras futuras
+
+La carpeta [`Future/`](Future/) recoge el material de la sección de **r
+futuros y mejoras futuras** del TFG: el historial experimental completo del
+solver (línea base → ablaciones → `markov_anchor`, incluidos los resultados
+negativos como evidencia) y las líneas de trabajo futuro para profundid
+d ≥ 25 sin romper la pureza EDA. El documento principal es
+[`Future/MEJORAS.md`](Future/MEJORAS.md).
