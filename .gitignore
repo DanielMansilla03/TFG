@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Caches de PDBs generadas en tiempo de ejecucion
+*.pkl
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
