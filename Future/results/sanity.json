@@ -1,0 +1,281 @@
+{
+  "config": {
+    "depths": [
+      5
+    ],
+    "n_runs": 1,
+    "base_seed": 1000,
+    "size_gen": 200,
+    "max_iter": 50,
+    "dead_iter": 15,
+    "alpha": 0.3,
+    "length_penalty": 0.0005,
+    "genome_step": 2,
+    "n_restarts": 2
+  },
+  "summaries": {
+    "5": {
+      "n_runs": 1,
+      "success_rate": 1.0,
+      "initial_pdb_dist": 0.4635037878787879,
+      "entropy_final_mean": -1.4426951601859516e-10,
+      "entropy_final_median": -1.4426951601859516e-10,
+      "elite_unique_costs_median": 1.0,
+      "pop_pct_better_than_initial_median": 1.0,
+      "elite_pct_better_than_initial_median": 1.0,
+      "best_learned_len_median": 5.0,
+      "best_max_prefix_len_median": 5.0,
+      "best_decoded_len_median": 5.0,
+      "best_prefix_pdb_dist_median": 0.0,
+      "stagnation_gen_median": 0.0,
+      "gens_run_median": 17.0
+    }
+  },
+  "per_run": {
+    "5": [
+      {
+        "seed": 6000,
+        "scramble": "L' D' L2 B' L2",
+        "solved": true,
+        "best_cost": -99.9975,
+        "n_restarts_used": 1,
+        "elapsed_seconds": 0.16931149999982154,
+        "restart_summaries": [
+          {
+            "restart_idx": 1,
+            "genome_length": 5,
+            "solved": true,
+            "best_cost": -99.9975,
+            "stagnation_gen": 0,
+            "n_gens_run": 17,
+            "initial_pdb_dist": 0.4635037878787879,
+            "elapsed_seconds": 0.1687583000000359,
+            "gen_logs": [
+              {
+                "gen": 0,
+                "entropy": NaN,
+                "best_cost": -99.9975,
+                "best_prefix_pdb_dist": 0.0,
+                "elite_unique_costs": 7,
+                "elite_size": 60,
+                "pop_pct_better_than_initial": 0.515,
+                "elite_pct_better_than_initial": 1.0,
+                "best_learned_len": 5,
+                "best_decoded_len": 5,
+                "best_max_prefix_len": 5
+              },
+              {
+                "gen": 1,
+                "entropy": 1.7072503565010588,
+                "best_cost": -99.9975,
+                "best_prefix_pdb_dist": 0.0,
+                "elite_unique_costs": 3,
+                "elite_size": 60,
+                "pop_pct_better_than_initial": 0.955,
+                "elite_pct_better_than_initial": 1.0,
+                "best_learned_len": 5,
+                "best_decoded_len": 5,
+                "best_max_prefix_len": 5
+              },
+              {
+                "gen": 2,
+                "entropy": 0.7642968678976002,
+                "best_cost": -99.9975,
+                "best_prefix_pdb_dist": 0.0,
+                "elite_unique_costs": 1,
+                "elite_size": 60,
+                "pop_pct_better_than_initial": 1.0,
+                "elite_pct_better_than_initial": 1.0,
+                "best_learned_len": 5,
+                "best_decoded_len": 5,
+                "best_max_prefix_len": 5
+              },
+              {
+                "gen": 3,
+                "entropy": -1.4426951601859516e-10,
+                "best_cost": -99.9975,
+                "best_prefix_pdb_dist": 0.0,
+                "elite_unique_costs": 1,
+                "elite_size": 60,
+                "pop_pct_better_than_initial": 1.0,
+                "elite_pct_better_than_initial": 1.0,
+                "best_learned_len": 5,
+                "best_decoded_len": 5,
+                "best_max_prefix_len": 5
+              },
+              {
+                "gen": 4,
+                "entropy": -1.4426951601859516e-10,
+                "best_cost": -99.9975,
+                "best_prefix_pdb_dist": 0.0,
+                "elite_unique_costs": 1,
+                "elite_size": 60,
+                "pop_pct_better_than_initial": 1.0,
+                "elite_pct_better_than_initial": 1.0,
+                "best_learned_len": 5,
+                "best_decoded_len": 5,
+                "best_max_prefix_len": 5
+              },
+              {
+                "gen": 5,
+                "entropy": -1.4426951601859516e-10,
+                "best_cost": -99.9975,
+                "best_prefix_pdb_dist": 0.0,
+                "elite_unique_costs": 1,
+                "elite_size": 60,
+                "pop_pct_better_than_initial": 1.0,
+                "elite_pct_better_than_initial": 1.0,
+                "best_learned_len": 5,
+                "best_decoded_len": 5,
+                "best_max_prefix_len": 5
+              },
+              {
+                "gen": 6,
+                "entropy": -1.4426951601859516e-10,
+                "best_cost": -99.9975,
+                "best_prefix_pdb_dist": 0.0,
+                "elite_unique_costs": 1,
+                "elite_size": 60,
+                "pop_pct_better_than_initial": 1.0,
+                "elite_pct_better_than_initial": 1.0,
+                "best_learned_len": 5,
+                "best_decoded_len": 5,
+                "best_max_prefix_len": 5
+              },
+              {
+                "gen": 7,
+                "entropy": -1.4426951601859516e-10,
+                "best_cost": -99.9975,
+                "best_prefix_pdb_dist": 0.0,
+                "elite_unique_costs": 1,
+                "elite_size": 60,
+                "pop_pct_better_than_initial": 1.0,
+                "elite_pct_better_than_initial": 1.0,
+                "best_learned_len": 5,
+                "best_decoded_len": 5,
+                "best_max_prefix_len": 5
+              },
+              {
+                "gen": 8,
+                "entropy": -1.4426951601859516e-10,
+                "best_cost": -99.9975,
+                "best_prefix_pdb_dist": 0.0,
+                "elite_unique_costs": 1,
+                "elite_size": 60,
+                "pop_pct_better_than_initial": 1.0,
+                "elite_pct_better_than_initial": 1.0,
+                "best_learned_len": 5,
+                "best_decoded_len": 5,
+                "best_max_prefix_len": 5
+              },
+              {
+                "gen": 9,
+                "entropy": -1.4426951601859516e-10,
+                "best_cost": -99.9975,
+                "best_prefix_pdb_dist": 0.0,
+                "elite_unique_costs": 1,
+                "elite_size": 60,
+                "pop_pct_better_than_initial": 1.0,
+                "elite_pct_better_than_initial": 1.0,
+                "best_learned_len": 5,
+                "best_decoded_len": 5,
+                "best_max_prefix_len": 5
+              },
+              {
+                "gen": 10,
+                "entropy": -1.4426951601859516e-10,
+                "best_cost": -99.9975,
+                "best_prefix_pdb_dist": 0.0,
+                "elite_unique_costs": 1,
+                "elite_size": 60,
+                "pop_pct_better_than_initial": 1.0,
+                "elite_pct_better_than_initial": 1.0,
+                "best_learned_len": 5,
+                "best_decoded_len": 5,
+                "best_max_prefix_len": 5
+              },
+              {
+                "gen": 11,
+                "entropy": -1.4426951601859516e-10,
+                "best_cost": -99.9975,
+                "best_prefix_pdb_dist": 0.0,
+                "elite_unique_costs": 1,
+                "elite_size": 60,
+                "pop_pct_better_than_initial": 1.0,
+                "elite_pct_better_than_initial": 1.0,
+                "best_learned_len": 5,
+                "best_decoded_len": 5,
+                "best_max_prefix_len": 5
+              },
+              {
+                "gen": 12,
+                "entropy": -1.4426951601859516e-10,
+                "best_cost": -99.9975,
+                "best_prefix_pdb_dist": 0.0,
+                "elite_unique_costs": 1,
+                "elite_size": 60,
+                "pop_pct_better_than_initial": 1.0,
+                "elite_pct_better_than_initial": 1.0,
+                "best_learned_len": 5,
+                "best_decoded_len": 5,
+                "best_max_prefix_len": 5
+              },
+              {
+                "gen": 13,
+                "entropy": -1.4426951601859516e-10,
+                "best_cost": -99.9975,
+                "best_prefix_pdb_dist": 0.0,
+                "elite_unique_costs": 1,
+                "elite_size": 60,
+                "pop_pct_better_than_initial": 1.0,
+                "elite_pct_better_than_initial": 1.0,
+                "best_learned_len": 5,
+                "best_decoded_len": 5,
+                "best_max_prefix_len": 5
+              },
+              {
+                "gen": 14,
+                "entropy": -1.4426951601859516e-10,
+                "best_cost": -99.9975,
+                "best_prefix_pdb_dist": 0.0,
+                "elite_unique_costs": 1,
+                "elite_size": 60,
+                "pop_pct_better_than_initial": 1.0,
+                "elite_pct_better_than_initial": 1.0,
+                "best_learned_len": 5,
+                "best_decoded_len": 5,
+                "best_max_prefix_len": 5
+              },
+              {
+                "gen": 15,
+                "entropy": 2.012572243822433,
+                "best_cost": -99.9975,
+                "best_prefix_pdb_dist": 0.0,
+                "elite_unique_costs": 1,
+                "elite_size": 60,
+                "pop_pct_better_than_initial": 1.0,
+                "elite_pct_better_than_initial": 1.0,
+                "best_learned_len": 5,
+                "best_decoded_len": 5,
+                "best_max_prefix_len": 5
+              },
+              {
+                "gen": 16,
+                "entropy": -1.4426951601859516e-10,
+                "best_cost": -99.9975,
+                "best_prefix_pdb_dist": 0.0,
+                "elite_unique_costs": 1,
+                "elite_size": 60,
+                "pop_pct_better_than_initial": 1.0,
+                "elite_pct_better_than_initial": 1.0,
+                "best_learned_len": 5,
+                "best_decoded_len": 5,
+                "best_max_prefix_len": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

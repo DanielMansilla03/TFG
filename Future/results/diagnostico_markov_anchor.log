@@ -1,0 +1,215 @@
+﻿python.exe : C:\Users\Usuario\Desktop\TFG\EDA\.venv\lib\site-packages\pgmpy\estimators\__init__.py:4: FutureWarning: 
+`pgmpy.estimators.StructureScore` is deprecated and will be removed in a future release. Use `pgmpy.structure_score` 
+instead.
+En línea: 1 Carácter: 32
++ ... NG="utf-8"; & "C:\Users\Usuario\Desktop\TFG\EDA\.venv\Scripts\python. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Usuari...score` instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  from .StructureScore import (
+Cargando PDBs (puede tardar la primera vez)...
+PDBs cargadas en 1.6s
+
+================================================================
+  PROFUNDIDAD 5  (n_runs=20)
+================================================================
+  [d=5 01/20] OK  best_cost=-99.9975  restarts=1  t=0.8s
+  [d=5 02/20] OK  best_cost=-99.9975  restarts=1  t=1.0s
+  [d=5 03/20] OK  best_cost=-99.9975  restarts=1  t=1.2s
+  [d=5 04/20] OK  best_cost=-99.9975  restarts=1  t=2.5s
+  [d=5 05/20] OK  best_cost=-99.9975  restarts=1  t=1.9s
+  [d=5 06/20] OK  best_cost=-99.9975  restarts=1  t=0.7s
+  [d=5 07/20] OK  best_cost=-99.9975  restarts=1  t=1.4s
+  [d=5 08/20] OK  best_cost=-99.9975  restarts=1  t=1.5s
+  [d=5 09/20] OK  best_cost=-99.9975  restarts=1  t=1.5s
+  [d=5 10/20] OK  best_cost=-99.9975  restarts=1  t=1.9s
+  [d=5 11/20] OK  best_cost=-99.9975  restarts=1  t=1.7s
+  [d=5 12/20] OK  best_cost=-99.9975  restarts=1  t=1.4s
+  [d=5 13/20] OK  best_cost=-99.9975  restarts=1  t=1.5s
+  [d=5 14/20] OK  best_cost=-99.9975  restarts=1  t=1.6s
+  [d=5 15/20] OK  best_cost=-99.9975  restarts=1  t=1.3s
+  [d=5 16/20] OK  best_cost=-99.9975  restarts=1  t=0.8s
+  [d=5 17/20] OK  best_cost=-99.9975  restarts=1  t=1.8s
+  [d=5 18/20] OK  best_cost=-99.9975  restarts=1  t=0.9s
+  [d=5 19/20] OK  best_cost=-99.9975  restarts=1  t=0.8s
+  [d=5 20/20] OK  best_cost=-99.9975  restarts=1  t=1.5s
+
+  Resumen d=5: success=100%  entropy_final=0.138  elite_div=1.0  pop%_mejor_init=100.0%
+
+================================================================
+  PROFUNDIDAD 10  (n_runs=20)
+================================================================
+  [d=10 01/20] OK  best_cost=-99.9950  restarts=1  t=1.3s
+  [d=10 02/20] OK  best_cost=-99.9950  restarts=1  t=1.2s
+  [d=10 03/20] OK  best_cost=-99.9950  restarts=1  t=1.0s
+  [d=10 04/20] OK  best_cost=-99.9950  restarts=1  t=1.2s
+  [d=10 05/20] OK  best_cost=-99.9950  restarts=1  t=1.2s
+  [d=10 06/20] OK  best_cost=-99.9950  restarts=1  t=1.2s
+  [d=10 07/20] OK  best_cost=-99.9950  restarts=1  t=1.2s
+  [d=10 08/20] OK  best_cost=-99.9950  restarts=1  t=1.3s
+  [d=10 09/20] OK  best_cost=-99.9950  restarts=1  t=1.2s
+  [d=10 10/20] OK  best_cost=-99.9950  restarts=1  t=1.1s
+  [d=10 11/20] OK  best_cost=-99.9950  restarts=1  t=1.1s
+  [d=10 12/20] OK  best_cost=-99.9950  restarts=1  t=1.0s
+  [d=10 13/20] OK  best_cost=-99.9950  restarts=1  t=1.3s
+  [d=10 14/20] OK  best_cost=-99.9950  restarts=1  t=1.1s
+  [d=10 15/20] OK  best_cost=-99.9950  restarts=1  t=1.1s
+  [d=10 16/20] OK  best_cost=-99.9950  restarts=1  t=1.2s
+  [d=10 17/20] OK  best_cost=-99.9950  restarts=1  t=1.3s
+  [d=10 18/20] OK  best_cost=-99.9950  restarts=1  t=1.2s
+  [d=10 19/20] OK  best_cost=-99.9950  restarts=1  t=1.2s
+  [d=10 20/20] OK  best_cost=-99.9950  restarts=1  t=1.1s
+
+  Resumen d=10: success=100%  entropy_final=0.144  elite_div=1.0  pop%_mejor_init=99.6%
+
+================================================================
+  PROFUNDIDAD 15  (n_runs=50)
+================================================================
+  [d=15 01/50] OK  best_cost=-99.9925  restarts=1  t=2.0s
+  [d=15 02/50] OK  best_cost=-99.9925  restarts=1  t=1.8s
+  [d=15 03/50] OK  best_cost=-99.9925  restarts=1  t=1.9s
+  [d=15 04/50] OK  best_cost=-99.9925  restarts=1  t=1.9s
+  [d=15 05/50] OK  best_cost=-99.9925  restarts=1  t=1.9s
+  [d=15 06/50] OK  best_cost=-99.9925  restarts=1  t=2.0s
+  [d=15 07/50] OK  best_cost=-99.9925  restarts=1  t=1.8s
+  [d=15 08/50] OK  best_cost=-99.9925  restarts=1  t=1.6s
+  [d=15 09/50] OK  best_cost=-99.9925  restarts=1  t=1.7s
+  [d=15 10/50] OK  best_cost=-99.9925  restarts=1  t=2.0s
+  [d=15 11/50] OK  best_cost=-99.9925  restarts=1  t=1.6s
+  [d=15 12/50] OK  best_cost=-99.9925  restarts=1  t=2.0s
+  [d=15 13/50] OK  best_cost=-99.9925  restarts=1  t=2.1s
+  [d=15 14/50] OK  best_cost=-99.9925  restarts=1  t=2.0s
+  [d=15 15/50] OK  best_cost=-99.9925  restarts=1  t=2.0s
+  [d=15 16/50] OK  best_cost=-99.9925  restarts=1  t=1.9s
+  [d=15 17/50] OK  best_cost=-99.9925  restarts=1  t=2.0s
+  [d=15 18/50] OK  best_cost=-99.9925  restarts=1  t=1.8s
+  [d=15 19/50] OK  best_cost=-99.9925  restarts=1  t=1.7s
+  [d=15 20/50] OK  best_cost=-99.9925  restarts=1  t=2.0s
+  [d=15 21/50] OK  best_cost=-99.9925  restarts=1  t=2.0s
+  [d=15 22/50] OK  best_cost=-99.9925  restarts=1  t=1.9s
+  [d=15 23/50] OK  best_cost=-99.9925  restarts=1  t=1.8s
+  [d=15 24/50] OK  best_cost=-99.9925  restarts=1  t=1.8s
+  [d=15 25/50] OK  best_cost=-99.9925  restarts=1  t=1.8s
+  [d=15 26/50] OK  best_cost=-99.9925  restarts=1  t=1.8s
+  [d=15 27/50] OK  best_cost=-99.9925  restarts=1  t=1.9s
+  [d=15 28/50] OK  best_cost=-99.9925  restarts=1  t=2.0s
+  [d=15 29/50] OK  best_cost=-99.9925  restarts=1  t=1.8s
+  [d=15 30/50] OK  best_cost=-99.9925  restarts=1  t=1.7s
+  [d=15 31/50] OK  best_cost=-99.9925  restarts=1  t=1.9s
+  [d=15 32/50] OK  best_cost=-99.9925  restarts=1  t=1.7s
+  [d=15 33/50] OK  best_cost=-99.9925  restarts=1  t=2.0s
+  [d=15 34/50] OK  best_cost=-99.9925  restarts=1  t=2.0s
+  [d=15 35/50] OK  best_cost=-99.9925  restarts=1  t=1.9s
+  [d=15 36/50] OK  best_cost=-99.9925  restarts=1  t=1.8s
+  [d=15 37/50] OK  best_cost=-99.9925  restarts=1  t=1.9s
+  [d=15 38/50] OK  best_cost=-99.9925  restarts=1  t=1.8s
+  [d=15 39/50] OK  best_cost=-99.9925  restarts=1  t=1.9s
+  [d=15 40/50] OK  best_cost=-99.9925  restarts=1  t=1.8s
+  [d=15 41/50] OK  best_cost=-99.9925  restarts=1  t=2.0s
+  [d=15 42/50] OK  best_cost=-99.9925  restarts=1  t=1.9s
+  [d=15 43/50] OK  best_cost=-99.9925  restarts=1  t=1.6s
+  [d=15 44/50] OK  best_cost=-99.9925  restarts=1  t=1.9s
+  [d=15 45/50] OK  best_cost=-99.9925  restarts=1  t=1.8s
+  [d=15 46/50] OK  best_cost=-99.9925  restarts=1  t=1.8s
+  [d=15 47/50] OK  best_cost=-99.9925  restarts=1  t=4.2s
+  [d=15 48/50] OK  best_cost=-99.9925  restarts=1  t=3.1s
+  [d=15 49/50] OK  best_cost=-99.9925  restarts=1  t=1.8s
+  [d=15 50/50] OK  best_cost=-99.9925  restarts=1  t=1.8s
+
+  Resumen d=15: success=100%  entropy_final=0.140  elite_div=1.0  pop%_mejor_init=99.8%
+
+================================================================
+  PROFUNDIDAD 19  (n_runs=50)
+================================================================
+  [d=19 01/50] OK  best_cost=-99.9905  restarts=1  t=2.4s
+  [d=19 02/50] OK  best_cost=-99.9905  restarts=1  t=4.0s
+  [d=19 03/50] OK  best_cost=-99.9905  restarts=1  t=2.3s
+  [d=19 04/50] OK  best_cost=-99.9905  restarts=1  t=4.9s
+  [d=19 05/50] OK  best_cost=-99.9905  restarts=1  t=2.1s
+  [d=19 06/50] OK  best_cost=-99.9905  restarts=1  t=5.3s
+  [d=19 07/50] OK  best_cost=-99.9905  restarts=1  t=2.3s
+  [d=19 08/50] OK  best_cost=-99.9905  restarts=1  t=4.9s
+  [d=19 09/50] --  best_cost=+0.2781  restarts=3  t=23.8s
+  [d=19 10/50] OK  best_cost=-99.9905  restarts=1  t=4.4s
+  [d=19 11/50] OK  best_cost=-99.9905  restarts=1  t=6.5s
+  [d=19 12/50] OK  best_cost=-99.9905  restarts=1  t=2.2s
+  [d=19 13/50] OK  best_cost=-99.9905  restarts=1  t=6.9s
+  [d=19 14/50] OK  best_cost=-99.9905  restarts=1  t=1.8s
+  [d=19 15/50] OK  best_cost=-99.9905  restarts=1  t=2.4s
+  [d=19 16/50] OK  best_cost=-99.9905  restarts=1  t=2.3s
+  [d=19 17/50] OK  best_cost=-99.9905  restarts=1  t=4.1s
+  [d=19 18/50] OK  best_cost=-99.9905  restarts=1  t=2.4s
+  [d=19 19/50] OK  best_cost=-99.9905  restarts=1  t=4.9s
+  [d=19 20/50] OK  best_cost=-99.9905  restarts=1  t=5.6s
+  [d=19 21/50] --  best_cost=+0.3416  restarts=3  t=20.3s
+  [d=19 22/50] OK  best_cost=-99.9905  restarts=1  t=2.2s
+  [d=19 23/50] OK  best_cost=-99.9905  restarts=1  t=2.2s
+  [d=19 24/50] OK  best_cost=-99.9905  restarts=1  t=2.6s
+  [d=19 25/50] OK  best_cost=-99.9905  restarts=1  t=2.4s
+  [d=19 26/50] OK  best_cost=-99.9905  restarts=1  t=2.1s
+  [d=19 27/50] OK  best_cost=-99.9905  restarts=1  t=4.3s
+  [d=19 28/50] OK  best_cost=-99.9905  restarts=1  t=2.3s
+  [d=19 29/50] OK  best_cost=-99.9905  restarts=1  t=4.8s
+  [d=19 30/50] OK  best_cost=-99.9905  restarts=1  t=6.9s
+  [d=19 31/50] OK  best_cost=-99.9905  restarts=1  t=2.3s
+  [d=19 32/50] OK  best_cost=-99.9905  restarts=1  t=2.0s
+  [d=19 33/50] OK  best_cost=-99.9905  restarts=1  t=2.2s
+  [d=19 34/50] OK  best_cost=-99.9905  restarts=1  t=2.7s
+  [d=19 35/50] OK  best_cost=-99.9905  restarts=1  t=2.4s
+  [d=19 36/50] OK  best_cost=-99.9905  restarts=1  t=1.9s
+  [d=19 37/50] OK  best_cost=-99.9905  restarts=1  t=2.4s
+  [d=19 38/50] OK  best_cost=-99.9905  restarts=1  t=4.8s
+  [d=19 39/50] OK  best_cost=-99.9905  restarts=1  t=4.5s
+  [d=19 40/50] OK  best_cost=-99.9905  restarts=1  t=4.5s
+  [d=19 41/50] OK  best_cost=-99.9905  restarts=1  t=2.1s
+  [d=19 42/50] --  best_cost=+0.4079  restarts=3  t=18.4s
+  [d=19 43/50] OK  best_cost=-99.9905  restarts=1  t=2.4s
+  [d=19 44/50] --  best_cost=+0.2418  restarts=3  t=24.9s
+  [d=19 45/50] OK  best_cost=-99.9905  restarts=1  t=2.0s
+  [d=19 46/50] OK  best_cost=-99.9905  restarts=1  t=2.3s
+  [d=19 47/50] OK  best_cost=-99.9905  restarts=1  t=2.1s
+  [d=19 48/50] OK  best_cost=-99.9905  restarts=1  t=2.5s
+  [d=19 49/50] OK  best_cost=-99.9905  restarts=1  t=2.2s
+  [d=19 50/50] OK  best_cost=-99.9905  restarts=1  t=4.8s
+
+  Resumen d=19: success=92%  entropy_final=0.126  elite_div=1.0  pop%_mejor_init=100.0%
+
+================================================================
+  PROFUNDIDAD 25  (n_runs=20)
+================================================================
+  [d=25 01/20] --  best_cost=+0.1884  restarts=3  t=23.3s
+  [d=25 02/20] --  best_cost=+0.3012  restarts=3  t=32.0s
+  [d=25 03/20] --  best_cost=+0.3610  restarts=3  t=31.1s
+  [d=25 04/20] --  best_cost=+0.3536  restarts=3  t=22.2s
+  [d=25 05/20] --  best_cost=+0.1883  restarts=3  t=30.5s
+  [d=25 06/20] --  best_cost=+0.2689  restarts=3  t=28.0s
+  [d=25 07/20] --  best_cost=+0.3451  restarts=3  t=28.4s
+  [d=25 08/20] --  best_cost=+0.3396  restarts=3  t=29.7s
+  [d=25 09/20] --  best_cost=+0.2828  restarts=3  t=29.6s
+  [d=25 10/20] --  best_cost=+0.3355  restarts=3  t=26.1s
+  [d=25 11/20] --  best_cost=+0.1919  restarts=3  t=28.2s
+  [d=25 12/20] --  best_cost=+0.3875  restarts=3  t=24.1s
+  [d=25 13/20] --  best_cost=+0.3260  restarts=3  t=27.0s
+  [d=25 14/20] --  best_cost=+0.2962  restarts=3  t=29.4s
+  [d=25 15/20] OK  best_cost=-99.9875  restarts=1  t=5.0s
+  [d=25 16/20] OK  best_cost=-99.9875  restarts=1  t=5.6s
+  [d=25 17/20] --  best_cost=+0.3070  restarts=3  t=28.9s
+  [d=25 18/20] OK  best_cost=-99.9875  restarts=1  t=9.7s
+  [d=25 19/20] OK  best_cost=-99.9875  restarts=1  t=6.1s
+  [d=25 20/20] --  best_cost=+0.3260  restarts=3  t=31.3s
+
+  Resumen d=25: success=20%  entropy_final=0.185  elite_div=1.0  pop%_mejor_init=100.0%
+
+Guardado: C:\Users\Usuario\Desktop\TFG\EDA\Auxiliar\diagnostico_markov_anchor.json
+
+========================================================================================================================
+RESUMEN POR PROFUNDIDAD
+========================================================================================================================
+        depth     success%   init_pdb_d     gens_run     stag_gen      entropy    elite_div    pop%>init  elite%>init    learn_len  maxpref_len    decod_len   best_pdb_d
+            5       100.0%       0.4181         62.0         31.0        0.138          1.0       100.0%       100.0%          9.0          5.0          9.0       0.0000
+           10       100.0%       0.7188         31.0          0.0        0.144          1.0        99.6%       100.0%         10.0         10.0         10.0       0.0000
+           15       100.0%       0.6805         32.0          1.0        0.140          1.0        99.8%       100.0%         15.0         14.0         15.0       0.0943
+           19        92.0%       0.8202         33.0          2.0        0.126          1.0       100.0%       100.0%         19.0         16.5         19.0       0.3693
+           25        20.0%       0.8233         94.5         36.5        0.185          1.0       100.0%       100.0%         29.0         23.5         29.0       0.2750
+========================================================================================================================
